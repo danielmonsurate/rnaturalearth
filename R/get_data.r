@@ -38,7 +38,7 @@ get_data <- function(scale = 110,
   
   if ( scale == 110 && type == 'countries' ) {
     
-    spdf <- getExportedValue("rnaturalearth", paste0(type,scale))
+    spdf <- argusDS.Crude.Dashboard::countries110
     
   } else if ( scale==110 || scale ==50 ) {
     
